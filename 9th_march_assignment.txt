@@ -1,0 +1,81 @@
+Q1: What are the Probability Mass Function (PMF) and Probability Density Function (PDF)? Explain with
+an example.
+
+--- Probability Mass Function (PMF):
+The PMF is used for discrete random variables, which take on specific values (like integers).
+It gives the probability that a discrete random variable is exactly equal to some value.
+
+--- Probability Density Function (PDF):
+The PDF is used for continuous random variables, which can take any value within a range.
+Unlike the PMF, the PDF does not give the probability at a specific point, but instead provides a relative likelihood for a continuous variable to be near a particular value.
+
+Q2: What is Cumulative Density Function (CDF)? Explain with an example. Why CDF is used?
+
+--- The Cumulative Distribution Function (CDF) is a fundamental concept in probability theory that describes the probability that a random variable takes a value less than or equal to a certain point. The CDF is applicable for both discrete and continuous random variables.
+
+--- The CDF is useful because it gives a complete picture of the distribution of a random variable
+
+Q3: What are some examples of situations where the normal distribution might be used as a model?
+Explain how the parameters of the normal distribution relate to the shape of the distribution.
+
+--- The normal distribution is one of the most commonly used probability distributions in statistics, often applied when modeling naturally occurring phenomena.
+--- Symmetry: The normal distribution is symmetric around the mean. This means that the left and right halves of the distribution are mirror images.
+
+68-95-99.7 Rule:
+68% of the data lies within 1 standard deviation of the mean 
+95% of the data lies within 2 standard deviations of the mean 
+99.7% of the data lies within 3 standard deviations of the mean 
+
+
+
+Q4: Importance of Normal Distribution
+
+The normal distribution is important because it models many natural phenomena (e.g., heights, IQ scores) and measurement errors.
+Real-life examples:
+Heights of people in a population
+Test scores (SAT, IQ)
+Stock market returns (approximation)
+Blood pressure readings
+
+
+Q5: Bernoulli vs Binomial Distribution
+
+Bernoulli Distribution: Describes a single trial with two outcomes (success = 1, failure = 0).
+Example: Flipping a coin (Heads = 1, Tails = 0).
+Binomial Distribution: Models the number of successes in 
+n independent Bernoulli trials.
+Difference: Bernoulli is for one trial, Binomial is for multiple trials (n).
+
+Q6: Probability (P(X > 60)) Calculation
+
+Mean (µ) = 50, Standard deviation (σ) = 10.
+𝑍=𝑋−𝜇𝜎=60−5010=1Z= σX−μ= 1060−50=1.
+Using the Z-table, 𝑃(𝑍>1)=0.1587 P(Z>1)=0.1587.
+Answer: Probability 𝑃(𝑋>60)=0.1587
+P(X>60)=0.1587, or about 15.87%.
+
+Q7: Uniform Distribution
+
+Uniform Distribution: All outcomes in a given range are equally likely.
+Example: Rolling a fair die; each number from 1 to 6 has an equal probability of 
+1
+6
+6
+1
+​
+Q8: Z-Score
+Z-Score: Measures how many standard deviations an observation is from the mean.
+Importance: Allows comparison of data from different distributions, standardizing scores for comparison.
+
+
+Q9: Central Limit Theorem (CLT)
+CLT: The distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the population’s distribution.
+Significance: Enables use of normal distribution for inference, even for non-normally distributed populations when the sample size is large enough.
+
+ .
+
+
+Q10: Assumptions of the Central Limit Theorem
+The sample size should be sufficiently large (typically 𝑛≥30n≥30).
+The samples must be independent.
+The population should have a finite variance.
